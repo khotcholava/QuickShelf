@@ -1,124 +1,15 @@
-   0.237437375s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint: fingerprint error for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: false }/TargetInner { ..: lib_target("quickshelf_lib", ["staticlib", "cdylib", "rlib"], "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/lib.rs", Edition2021) }
-   0.237464292s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/.fingerprint/quickshelf-43d9971abe241fd8/lib-quickshelf_lib`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   7: cargo::ops::cargo_compile::compile_ws
-   8: cargo::ops::cargo_compile::compile_with_exec
-   9: cargo::ops::cargo_compile::compile
-  10: cargo::commands::check::exec
-  11: <cargo::cli::Exec>::exec
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.284207542s  INFO prepare_target{force=false package_id=tauri-plugin-store v2.4.1 target="tauri_plugin_store"}: cargo::core::compiler::fingerprint: fingerprint error for tauri-plugin-store v2.4.1/Check { test: false }/TargetInner { ..: lib_target("tauri_plugin_store", ["lib"], "/Users/khotcholava/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-plugin-store-2.4.1/src/lib.rs", Edition2021) }
-   0.284219958s  INFO prepare_target{force=false package_id=tauri-plugin-store v2.4.1 target="tauri_plugin_store"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/.fingerprint/tauri-plugin-store-27132edd0fd89fff/lib-tauri_plugin_store`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: cargo::core::compiler::compile
-   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   8: cargo::ops::cargo_compile::compile_ws
-   9: cargo::ops::cargo_compile::compile_with_exec
-  10: cargo::ops::cargo_compile::compile
-  11: cargo::commands::check::exec
-  12: <cargo::cli::Exec>::exec
-  13: cargo::main
-  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  15: std::rt::lang_start::<()>::{closure#0}
-  16: std::rt::lang_start_internal
-  17: _main
-   0.285153208s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint: fingerprint error for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: true }/TargetInner { ..: lib_target("quickshelf_lib", ["staticlib", "cdylib", "rlib"], "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/lib.rs", Edition2021) }
-   0.285164375s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/.fingerprint/quickshelf-c234ebf63ad04c5f/test-lib-quickshelf_lib`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   7: cargo::ops::cargo_compile::compile_ws
-   8: cargo::ops::cargo_compile::compile_with_exec
-   9: cargo::ops::cargo_compile::compile
-  10: cargo::commands::check::exec
-  11: <cargo::cli::Exec>::exec
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.286173333s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint: fingerprint error for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: false }/TargetInner { name: "quickshelf", doc: true, ..: with_path("/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/main.rs", Edition2021) }
-   0.286179042s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/.fingerprint/quickshelf-786f0a21b8af0c2a/bin-quickshelf`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   7: cargo::ops::cargo_compile::compile_ws
-   8: cargo::ops::cargo_compile::compile_with_exec
-   9: cargo::ops::cargo_compile::compile
-  10: cargo::commands::check::exec
-  11: <cargo::cli::Exec>::exec
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.286995208s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint: fingerprint error for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: true }/TargetInner { name: "quickshelf", doc: true, ..: with_path("/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/main.rs", Edition2021) }
-   0.286999667s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/.fingerprint/quickshelf-0858e54f45528c63/test-bin-quickshelf`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   7: cargo::ops::cargo_compile::compile_ws
-   8: cargo::ops::cargo_compile::compile_with_exec
-   9: cargo::ops::cargo_compile::compile
-  10: cargo::commands::check::exec
-  11: <cargo::cli::Exec>::exec
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-    Checking tauri-plugin-store v2.4.1
-    Checking quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.92s
+   0.355450042s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint: stale: changed "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/tauri.conf.json"
+   0.355462459s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint:           (vs) "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/build/quickshelf-cae9fd9fab4e6580/output"
+   0.355465375s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1761835932, nanos: 92998413 } < FileTime { seconds: 1761835978, nanos: 419652058 }
+   0.370627042s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint: fingerprint dirty for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: false }/TargetInner { ..: lib_target("quickshelf_lib", ["staticlib", "cdylib", "rlib"], "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/lib.rs", Edition2021) }
+   0.370639334s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "build_script_build" })
+   0.371657000s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint dirty for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/build.rs", Edition2021) }
+   0.371662459s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="build-script-build"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/target/debug/build/quickshelf-cae9fd9fab4e6580/output", reference_mtime: FileTime { seconds: 1761835932, nanos: 92998413 }, stale: "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/tauri.conf.json", stale_mtime: FileTime { seconds: 1761835978, nanos: 419652058 } }))
+   0.395567084s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint: fingerprint dirty for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: true }/TargetInner { ..: lib_target("quickshelf_lib", ["staticlib", "cdylib", "rlib"], "/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/lib.rs", Edition2021) }
+   0.395574375s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf_lib"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "build_script_build" })
+   0.396432292s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint: fingerprint dirty for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: false }/TargetInner { name: "quickshelf", doc: true, ..: with_path("/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/main.rs", Edition2021) }
+   0.396439584s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "quickshelf_lib" })
+   0.397261709s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint: fingerprint dirty for quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)/Check { test: true }/TargetInner { name: "quickshelf", doc: true, ..: with_path("/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri/src/main.rs", Edition2021) }
+   0.397266459s  INFO prepare_target{force=false package_id=quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri) target="quickshelf"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "quickshelf_lib" })
+   Compiling quickshelf v0.1.0 (/Users/khotcholava/Documents/Dev/@projects/QuickShelf/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.55s
